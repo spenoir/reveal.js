@@ -102,7 +102,7 @@ module.exports = function(grunt) {
 
 		zip: {
 			'reveal-js-presentation.zip': [
-				'index.html',
+				'karma.html',
 				'css/**',
 				'js/**',
 				'lib/**',
@@ -129,7 +129,7 @@ module.exports = function(grunt) {
 				tasks: 'css-core'
 			},
 			html: {
-				files: [ 'index.html']
+				files: [ 'index.html', 'karma.html']
 			},
 			markdown: {
 				files: [ './*.md' ]
